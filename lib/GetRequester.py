@@ -17,3 +17,4 @@ class GetRequester:
         return json.loads(data)
 
 
+results = GetRequester("https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json")
